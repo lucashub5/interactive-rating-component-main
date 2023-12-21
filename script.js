@@ -3,7 +3,6 @@ var submitEnabled = false;
 
 function resetColors(excludeClass) {
     const classesToColor = ["one", "two", "three", "four", "five"];
-    const commonColor = `hsl(213, 19%, 18%)`;
   
     for (const className of classesToColor) {
       if (className !== excludeClass) {
